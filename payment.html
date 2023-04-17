@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Thanh Toán Trực Tuyến</title>
+	<link rel="stylesheet" type="text/css" href=" bootstrap/css/payment.css">
+    <script>
+        function showSuccessMessage() {
+          alert("Thanh toán thành công!");
+        }
+        </script>
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="left">
+			<h3>Thông Tin Khách Hàng</h3>
+			<form>
+				Họ và tên
+			<input type="text" name="" placeholder="">
+				Email
+				<input type="text" name="" placeholder="">
+
+				Địa Chỉ
+				<input type="text" name="" placeholder="">
+				
+				Số Nhà
+				<input type="text" name="" placeholder="">
+				
+			</form>
+		</div>
+		<div class="right">
+			<h3>Thanh Toán Trực Tuyến</h3>
+			<form>
+				Chọn Loại Thẻ <br>
+				<img src="image/card1.png" width="100">
+				<img src="image/card2.png" width="50">
+				<br><br>
+
+				Nhập Số Thẻ
+			<input type="text" name="" placeholder="">
+				
+				Họ Tên Chủ Thẻ
+				<input type="text" name="" placeholder="">
+				<div id="zip">
+						<label>
+						CVV
+						<input type="number" name="" placeholder="CVV">
+					</label>
+				</div>
+			</form>
+			<input type="submit" name="" value="Thanh Toán" onclick="showSuccessMessage();">
+		</div>
+	</div>
+</header>
+</body>
+</html>
